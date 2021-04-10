@@ -9,6 +9,7 @@ class developerDetails extends Component {
     };
 
     componentDidMount() {
+        document.title = "Developer Profile";
         if(!this.props.match.params.id) {
             const request = new Request(`api/developers/`, {
                 method: 'GET',
