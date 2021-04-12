@@ -508,11 +508,16 @@ color: #D0CDE1;
 .repo_info {
   max-width:370px;
   height: auto;
+  font-size: 20px;;
   margin-left: 10px;
 }
 .repo_updated {
   max-width:100px;
   font-size: 15px;
+}
+
+.repo_name {
+  font-size: 25px;
 }
 .developer {
   display: none;
