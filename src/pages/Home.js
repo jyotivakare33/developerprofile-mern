@@ -14,6 +14,7 @@ function Home() {
             <meta name="description" content="Some description." />
             <meta property="og:title" content="MyApp" />
             <meta property="og:image" content={Title} />
+                    <meta name="image" property="og:image" content={Title}></meta>
           </MetaTags>
             <Header />
             <Search />
