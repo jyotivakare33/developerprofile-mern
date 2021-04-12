@@ -491,7 +491,18 @@ color: #D0CDE1;
 .cancel-form {
   margin:0px;
 }
-.margin-20, .input {
+.margin-20, .input, .repo_name {
   margin:0px;
+}
+.account_circle_info {
+  max-width: 100px;
+  height: 100px;
+}
+.github_repos_heading {
+  font-size: 40px;
+  max-width:400px;
+}
+.developer-header {
+  max-width:450px;
 }
 }
