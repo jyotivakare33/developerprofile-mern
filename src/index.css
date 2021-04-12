@@ -466,11 +466,11 @@ color: #D0CDE1;
 .heading_explore {
   font-size: 1.5rem;
     line-height: 2rem;
-    width: 200px;
+    max-width: 200px;
     margin-left: 20px;
 }
 .add_developer {
-  width: 194px;
+  max-width: 194px;
   line-height: 49px;
     margin: 20px;
 }
@@ -482,7 +482,7 @@ color: #D0CDE1;
   .modal-main {
     position: fixed;
     background: white;
-    width: 84%;
+    max-width: 84%;
     height: 100%;
     top: 50%;
     left: 50%;
@@ -491,7 +491,7 @@ color: #D0CDE1;
 .cancel-form {
   margin:0px;
 }
-.margin-20, .input, .repo_name {
+.margin-20, .input, .repo_name,.repo_info {
   margin:0px;
 }
 .account_circle_info {
@@ -504,5 +504,20 @@ color: #D0CDE1;
 }
 .developer-header {
   max-width:450px;
+}
+.repo_info {
+  max-width:370px;
+  height: auto;
+  margin-left: 10px;
+}
+.repo_updated {
+  max-width:100px;
+  font-size: 15px;
+}
+.developer {
+  display: none;
+}
+.all-developers {
+  float:left;
 }
 }
