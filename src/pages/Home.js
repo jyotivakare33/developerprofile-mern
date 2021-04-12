@@ -3,7 +3,7 @@ import Search from '../components/Search';
 import DeveloperDetails from '../components/DeveloperDetails';
 import NotFound from '../components/NotFound';
 import Footer from '../components/Footer';
-import { Title } from '../images/title.png';
+import Title  from '../images/title.png';
 import {Helmet} from "react-helmet";
 
 function Home() {
