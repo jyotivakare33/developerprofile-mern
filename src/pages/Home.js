@@ -3,6 +3,7 @@ import Search from '../components/Search';
 import DeveloperDetails from '../components/DeveloperDetails';
 import NotFound from '../components/NotFound';
 import Footer from '../components/Footer';
+import { Title } from '../images/title.png';
 import {Helmet} from "react-helmet";
 
 function Home() {
@@ -11,8 +12,8 @@ function Home() {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Developer Profile</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-                <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg"/>
+                <link rel="canonical" href="https://developerprofile-mern.herokuapp.com/" />
+                <meta property="og:image" content={Title}/>
             </Helmet>
             <Header />
             <Search />
