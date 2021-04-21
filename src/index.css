@@ -368,8 +368,8 @@ text-decoration: none;
 }
 
 .repo_info {
-width: 840px;
-height: 49px;
+width: auto;
+height: auto;
 
 font-family: Nunito Sans;
 font-style: normal;
