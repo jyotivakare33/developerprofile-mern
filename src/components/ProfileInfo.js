@@ -50,13 +50,13 @@ class ProfileInfo extends Component {
                         <p className="info_name">{person.github}</p>
                         <p className="info_name designation">Web Developer</p>
                         <div className="container_developer_info">
-                        {person.github ? <a href={`https://github.com/${person.github}`} target="_blank"><img src={GithubIcon} className="social_icon" alt="" /></a>: ''   }
-                        {person.hackeerank ? <a href={`https://www.hackerrank.com/${person.hackeerank}`} target="_blank"><img src={Hackeerank} className="social_icon" alt="" /></a>: '' }
-                        {person.linkedin ? <a href={`https://www.linkedin.com/in/${person.linkedin}`} target="_blank"><img src={LinkedinIcon} className="social_icon" alt="" /></a>: ''}
-                        {person.twitter ? <a href={`https://twitter.com/${person.twitter}`} target="_blank"><img src={Twitter} className="social_icon" alt="" /></a>: ''}
-                        {person.medium ? <a href={`https://medium.com/${person.medium}`} target="_blank"><img src={Medium} className="social_icon" alt="" /></a>: ''}
-                        {person.codechef ? <a href={`https://www.codechef.com/users/${person.codechef}`} target="_blank"><img src={CodeChef} className="social_icon" alt="" /></a>: '' }
-                        {person.email ? <a href={person.email} target="_blank"><img src={Email} className="social_icon" alt="" /></a>: ''}
+                        {person.github ? <a href={`https://github.com/${person.github}`} target="_blank" rel="noreferrer"><img src={GithubIcon} className="social_icon" alt="" /></a>: ''   }
+                        {person.hackeerank ? <a href={`https://www.hackerrank.com/${person.hackeerank}`} target="_blank" rel="noreferrer"><img src={Hackeerank} className="social_icon" alt="" /></a>: '' }
+                        {person.linkedin ? <a href={`https://www.linkedin.com/in/${person.linkedin}`} target="_blank" rel="noreferrer"><img src={LinkedinIcon} className="social_icon" alt="" /></a>: ''}
+                        {person.twitter ? <a href={`https://twitter.com/${person.twitter}`} target="_blank" rel="noreferrer"><img src={Twitter} className="social_icon" alt="" /></a>: ''}
+                        {person.medium ? <a href={`https://medium.com/${person.medium}`} target="_blank" rel="noreferrer"><img src={Medium} className="social_icon" alt="" /></a>: ''}
+                        {person.codechef ? <a href={`https://www.codechef.com/users/${person.codechef}`} target="_blank" rel="noreferrer"><img src={CodeChef} className="social_icon" alt="" /></a>: '' }
+                        {person.email ? <a href={person.email} target="_blank" rel="noreferrer"><img src={Email} className="social_icon" alt="" /></a>: ''}
                         </div>
                         <div className="container_developer_info">
                             {person.location ? <div className="profile_icons"><Location /><span className="info_name location">{person.location}</span></div>: ''}
